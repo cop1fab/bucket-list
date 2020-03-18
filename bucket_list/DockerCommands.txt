@@ -1,0 +1,11 @@
+// A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container
+// A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application
+
+// Build image and name it bucketlist
+docker image build -t bucketlist .
+
+// Run docker container
+
+// Check running processes
+docker ps -a
+
