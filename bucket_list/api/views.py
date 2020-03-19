@@ -15,6 +15,6 @@ class CreateView(generics.ListCreateAPIView):
         serializer.save()
 class DetailsView(generics.RetrieveUpdateDestroyAPIView):
         """This class handles the http GET, PUT and DELETE requests."""
-
+        print('Yeah')
         queryset = Bucketlist.objects.all()
         serializer_class = BucketlistSerializer
